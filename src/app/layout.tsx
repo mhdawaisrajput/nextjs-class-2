@@ -1,10 +1,13 @@
-import { Children } from "react";
 import "./globals.css";
 import Link from "next/link";
 
-export default function RootLayout({ children }: any) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
-    <html>
+    <html lang="en">
       <body>
         <Link href="/">Home:</Link>
         <Link href="/about">About:</Link>

@@ -6,30 +6,38 @@ export default function Home() {
   );
 }
 
-/* import Link from "next/link";
-export default function Home() {
-  return (
-    <>
-      <Link href="/">Home:</Link>
-      <Link href="/about">About:</Link>
-      <Link href="/contact">Contact:</Link>
-      <h1>This is My Home Page:</h1>
-    </>
-  );
-}
+
+/*
+Method 02:  >>>> Usage of anchor tag:
 
 function Homepage() {
   return (
     <>
       <a href="/">Home:</a>
-      <a href="/about">About:</a>{" "}
+      <a href="/about">About:</a>
       <a href="http://localhost:3000/about">about</a>
       <a href="/contact">Contact:</a>
       <h1>This is My Home Page:</h1>
     </>
   );
-} */
+}
 
+Method 03:  >>>> Usage of Link tag:
+
+import Link from "next/link";
+export default function Home() {
+  return (
+    <>
+    <Link href="/">Home:</Link>
+    <Link href="/about">About:</Link>
+    <Link href="/contact">Contact:</Link>
+    <h1>This is My Home Page:</h1>
+    </>
+  );
+}
+    
+*/
+   
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////.
 
 /*    Panaverse: step01_routes. 
